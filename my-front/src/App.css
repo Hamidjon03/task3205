@@ -1,0 +1,31 @@
+.App {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: aliceblue;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: calc(100% - 16px);
+}
+
+button {
+  background-color: rgb(102, 146, 205);
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
