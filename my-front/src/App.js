@@ -35,7 +35,7 @@ function App() {
 
     try {
       const formattedNumber = number.replace(/-/g, '');
-      const response = await axios.post('http://localhost:3000/search',
+      const response = await axios.post('http://localhost:8000/search',
         { email, number: formattedNumber },
         { signal: newController.signal }
       );
